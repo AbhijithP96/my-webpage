@@ -1,0 +1,24 @@
+body{
+    background-color: #D5ECD4;
+}
+.cont{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    
+}
+.intro{
+    background-color: #C3DAC3;
+    border-radius: 20px;
+    width:100em;
+    margin:10px;
+}
+.head-text{
+    color:#6B6054;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p-text{
+    color:#6B6054;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
