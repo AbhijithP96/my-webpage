@@ -161,6 +161,7 @@ nav ul li a:hover::after{
 .pr-row-1 h1{
     font-size: 100px;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 .pr-row-2{
     display: flex;
