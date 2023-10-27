@@ -121,13 +121,14 @@ nav ul li a:hover::after{
 }
 .tab{
     display: flex;
-    margin:20px 0 40px;
+    margin:20px 0 60px;
 }
 .tab-links{
     margin-right: 50px;
     font-size: 20px;
     font-weight: 500;
     color:#F0EDEE ;
+    cursor: pointer;
     position: relative;
 
 }
@@ -136,7 +137,6 @@ nav ul li a:hover::after{
     width:0;
     height:3px;
     background:#90DDF0;
-    cursor: pointer;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -144,6 +144,24 @@ nav ul li a:hover::after{
 }
 .tab-links.active-link::after{
     width:100%;
+}
+.content{
+    
+    visibility:hidden ;
+}
+.list{
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+.active{
+    visibility: visible;
+}
+.list h4{
+    font-size: 18px;
+    font-style: oblique;
+}
+.list p{
+    color: #586F7C
 }
 /*----------------project----------------*/
 
